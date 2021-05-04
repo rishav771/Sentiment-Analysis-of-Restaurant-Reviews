@@ -14,6 +14,7 @@ Analysis Conclusion
 
 
 <br/>
+
 # Preprocessing Dataset<br/>
 Each review undergoes through a preprocessing step, where all the vague information is removed.
 
@@ -21,10 +22,12 @@ Removing the Stopwords, numeric and speacial charecters.
 Normalizing each review using the approach of stemming.
 
 <br/>
+
 # Vectorization
 From the cleaned dataset, potential features are extracted and are converted to numerical format. The vectorization techniques are used to convert textual data to numerical format. Using vectorization, a matrix is created where each column represents a feature and each row represents an individual review.
 
 <br/>
+
 # Training and Classification
 Further the data is splitted into training and testing set using Cross Validation technique. This data is used as input to classification algorithm.
 
